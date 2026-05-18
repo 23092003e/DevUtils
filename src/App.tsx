@@ -96,11 +96,14 @@ export default function App() {
       >
         <div className="p-4 border-b border-zinc-100 flex items-center justify-between min-h-[65px]">
           {isSidebarOpen && (
-            <div className="flex items-center gap-2 overflow-hidden whitespace-nowrap">
-              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white shadow-lg shadow-blue-200">
-                <Code size={18} strokeWidth={2.5} />
+            <div className="flex items-center gap-2.5 overflow-hidden whitespace-nowrap">
+              <div className="w-9 h-9 bg-linear-to-br from-blue-600 to-indigo-600 rounded-xl flex items-center justify-center text-white shadow-lg shadow-blue-500/20">
+                <Code size={20} strokeWidth={2.5} />
               </div>
-              <span className="font-bold text-zinc-900 text-lg">DevUtils</span>
+              <div>
+                <span className="font-bold text-zinc-900 text-lg leading-tight block">DevUtils</span>
+                <span className="text-[10px] text-zinc-400 font-bold uppercase tracking-wider block leading-none">Toolkit</span>
+              </div>
             </div>
           )}
           <button
