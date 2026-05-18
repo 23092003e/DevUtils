@@ -1,0 +1,8 @@
+{
+  "name": "DevUtils — Encode, Decode & QR Toolkit",
+  "description": "A comprehensive suite of developer tools for encoding, decoding, QR code generation/reading, and color conversion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
